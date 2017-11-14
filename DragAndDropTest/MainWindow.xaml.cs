@@ -23,6 +23,7 @@ namespace DragAndDropTest
         public MainWindow()
         {
             InitializeComponent();
+            //xd
         }
     }
 }
