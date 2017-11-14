@@ -6,7 +6,52 @@
         xmlns:local="clr-namespace:DragAndDropTest"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+    <Canvas Name="canvas">
+        <Rectangle
+                Name="rect"
+                Width="71"
+                Height="78"
+                Canvas.Left="57"
+                Canvas.Top="212"
+                Fill="Red"
+                MouseLeftButtonDown="rect_MouseLeftButtonDown"
+                MouseLeftButtonUp="rect_MouseLeftButtonUp"
+                MouseMove="rect_MouseMove"
+           
+                />
+        <Rectangle
+                Name="rect1"
+                Width="71"
+                Height="78"
+                Canvas.Left="57"
+                Canvas.Top="62"
+                Fill="#FFFFE800"
+                MouseLeftButtonDown="rect_MouseLeftButtonDown"
+                MouseLeftButtonUp="rect_MouseLeftButtonUp"
+                MouseMove="rect_MouseMove"
+                />
+        <Rectangle
+                Name="rect2"
+                Width="104"
+                Height="120"
+                Canvas.Left="225"
+                Canvas.Top="62"
+                Fill="#FF0017FF"
+                MouseLeftButtonDown="rect_MouseLeftButtonDown"
+                MouseLeftButtonUp="rect_MouseLeftButtonUp"
+                MouseMove="rect_MouseMove"
+                />
+        <Rectangle
+                Name="rect3"
+                Width="71"
+                Height="262"
+                Canvas.Left="409"
+                Canvas.Top="28"
+                Fill="#FF00FF8B"
+                MouseLeftButtonDown="rect_MouseLeftButtonDown"
+                MouseLeftButtonUp="rect_MouseLeftButtonUp"
+                MouseMove="rect_MouseMove"
+                />
+    </Canvas>
+
 </Window>
